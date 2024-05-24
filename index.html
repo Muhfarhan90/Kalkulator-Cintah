@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="script.js" /> -->
+  </head>
+  <body>
+    <section class="main-container">
+      <h1>CEK SEBERAPA COCOK KAMU DENGAN PASANGAN KAMU</h1>
+
+      <form action="" class="form-inputan">
+        <label for="">Nama Kamu</label>
+        <input type="text" placeholder="Sodik" id="namaKamu" />
+        <label for="">Nama Pacarmu</label>
+        <input type="text" placeholder="Bella saphira" id="namaPasangan" />
+        <button onclick="hitungCinta()" id="btn-hitung">
+          Hitung Kecocokan
+        </button>
+      </form>
+      <br />
+      <h3>Hasil Kecocokan :</h3>
+      <div class="hasil" id="tampilanHasil" display="none">
+        <p id="persentaseCinta"></p>
+        <p id="hasilCinta"></p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
